@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int idade = 0;
+	float salario = 0;
+	char sexo = 0;
+	double divida = 0;
+	
+	idade = 30;
+	salario = 3003.333;
+	sexo = 'M';
+	divida = 93930.333;
+
+    cout << "Eu tenho:" << idade << "anos" << endl;
+    cout << "Eu recebo:" << salario << "reais" << endl;
+    cout << "Meu sexo e:" << sexo << endl;
+    cout << "minha divida e:" << divida << "reais" << endl;
+
+	return 0;
+}
